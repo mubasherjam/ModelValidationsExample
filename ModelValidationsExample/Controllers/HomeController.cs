@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using ModelValidationsExample.Models;
+using System.ComponentModel.DataAnnotations;
 
 namespace ModelValidationsExample.Controllers
 {
