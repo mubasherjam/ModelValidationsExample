@@ -4,7 +4,7 @@ namespace ModelValidationsExample.Models
 {
     public class Person
     {
-        [Required(ErrorMessage = "Person name is required.")]
+        [Required]
         public string? PersonName { get; set; }
         public string? Email { get; set; }
         public string? Phone { get; set; }
