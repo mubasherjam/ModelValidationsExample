@@ -11,7 +11,7 @@ namespace ModelValidationsExample.Models
         public string? PersonName { get; set; }
 
         [EmailAddress(ErrorMessage = "{0} is not a valid email address")]
-        [Required (ErrorMessage = "{0} can't be empty or null")]
+        [Required (ErrorMessage = "{0} must provide email address")]
         public string? Email { get; set; }
 
         [Phone(ErrorMessage = "{0} is not a valid phone number")]
